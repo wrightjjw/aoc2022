@@ -1,0 +1,7 @@
+#+TITLE: Advent of Code 2022
+[[https://adventofcode.com][Advent of Code 2022]]
+
+I've been learning more about Emacs,
+and I've decided to do AOC 2022 using Elisp to help me learn how to extend it.
+
+- [[file:day01/countNumbers.el][Day 1 Code]]
