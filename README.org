@@ -4,4 +4,9 @@
 I've been learning more about Emacs,
 and I've decided to do AOC 2022 using Elisp to help me learn how to extend it.
 
+** Day 1
 - [[file:day01/countNumbers.el][Day 1 Code]]
+Day 1 took about two days to actually complete!
+It was rough, since I'm not used to the functional paradigm at all,
+but I was able to get the hang of it after some serious thinking through of the problems.
+Part 2 of the challenge progressed much more quickly after having had written a full Elisp program.
