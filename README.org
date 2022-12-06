@@ -10,3 +10,25 @@ Day 1 took about two days to actually complete!
 It was rough, since I'm not used to the functional paradigm at all,
 but I was able to get the hang of it after some serious thinking through of the problems.
 Part 2 of the challenge progressed much more quickly after having had written a full Elisp program.
+
+** Day 2
+- [[file:day02/rock-paper-scissors.el][Day 2 Code]]
+Day 2 went much faster than Day 1.
+I didn't need to make any references to the Elisp manual this time,
+whereas with Day 1, it was a mainstay in a split buffer.
+It only took me one day, but I'm still behind.
+Hopefully in the next couple days I'll get a chance to catch up!
+
+If there is such a thing as "Paranthesis Hell" in Lisp derivatives,
+I think I've discovered it.
+Or perhaps just a glimpse into it.
+Line 95 of my program has 10 parentheses in a row!
+I wonder if there was a better way to write it.
+I also had some trouble managing all those parentheses.
+I had multiple "unexpected end of file" or the like when trying to run it.
+And Emacs didn't have any useful way of letting me know which ones were wrong!
+I thought Flymake was supposed to help catch things like that,
+but it's possible I don't have it configured properly.
+Or maybe I need to enable LSP through eglot?
+Further research is required...
+
